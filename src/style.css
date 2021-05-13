@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color:rgb(49, 48, 48);
+  width: 100%;
+  height: 50px;
+}
+.container .title{
+  float: left;
+  width: 10%;
+  padding-top: 12.5px;
+  color: aliceblue;
+  margin-left: 150px;
+}
+.container input{
+  float: left;
+  margin-top: 9.5px;
+  width:50%;
+    height: 26px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px solid rgb(145, 145, 145);
+    outline-style: none;
+}
+.newadd {
+  background-color:#ddd;
+  list-style: none;
+  width: 40%;
+  margin: 20px auto;
+  border-radius: 4px 4px 4px 4px;
+}
+.newadd button{
+  float: right;
+  margin-top: 10px;
+  margin-right: 0px;
+  background-color: rgb(98, 193, 174);
+  color: rgb(255, 255, 255);
+  border: 0px;
+}
+.ok {
+  background-color:#ddd;
+  list-style: none;
+  width: 40%;
+  margin: 20px auto;
+  border-radius: 4px 4px 4px 4px;
+}
+.ok button{
+  float: right;
+  margin-top: 10px;
+  background-color: rgb(98, 193, 174);
+  color: rgb(255, 255, 255);
+  border: 0px;
+}
+.ok li{
+  overflow: hidden;
+  width: 100%;
+  height: 38px;
+  border-radius: 4px 4px 4px 4px;
+  background-color: rgb(255, 255, 255);
+  border-left: 8px solid rgb(98, 193, 174);
+  margin-bottom: 10px;
+  margin-left: -30px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.newadd li{
+  overflow: hidden;
+  width: 100%;
+  height: 38px;
+  border-radius: 4px 4px 4px 4px;
+  background-color: rgb(255, 255, 255);
+  border-left: 8px solid rgb(98, 193, 174);
+  margin-bottom: 10px;
+  margin-left: -30px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+body{
+  margin: 0 auto;
+  background-color: #ddd;
+}
+.playing{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ok input{
+  margin-top: 14px;
+}
+.newadd input{
+  margin-top: 14px;
+}
